@@ -47,11 +47,11 @@ h1{
       background-image: linear-gradient(to bottom, #58A601, #275C00);
       display:inline-block;
       padding: 0.5em 0.75em;
-      border-radius: 10px;
+      border-radius: 40px;
       left:20%;
       bottom: 5%;
       font-family: 'Dosis', sans-serif;
-      font-size:12px;
+      font-size:40px;
       }
       .btn2{
            text-decoration: none;
@@ -60,12 +60,12 @@ h1{
            background-image: linear-gradient(to bottom, #58A601, #275C00);
            display:inline-block;
            padding: 0.5em 0.75em;
-           border-radius: 10px;
+           border-radius: 40px;
            position: absolute;
            right:20%;
            bottom:5%;
            font-family: 'Dosis', sans-serif;
-           font-size: 12px;
+           font-size: 40px;
          }
          .btn3{
            text-decoration: none;
@@ -74,27 +74,27 @@ h1{
            background-image: linear-gradient(to bottom, #58A601, #275C00);
            display:block;
            padding: 0.5em 0.75em;
-           border-radius: 10px;
+           border-radius: 40px;
            position: absolute;
            left:20%;
            bottom: 5%;
            font-family: 'Dosis', sans-serif;
-           font-size: 12px;
+           font-size: 40px;
          }
      .btn4{
-           text-decoration: none;
-           color:white;
-           background-color: #58A601;
-           background-image: linear-gradient(to bottom, #58A601, #275C00);
-           display:block;
-           padding: 0.5em 0.75em;
-           border-radius: 10px;
-           position: absolute;
-           right:17%;
-           bottom:5%;
-           font-family: 'Dosis', sans-serif;
-           font-size: 12px;
-     }
+       text-decoration: none;
+color: white;
+background-color: #58A601;
+background-image: linear-gradient(to bottom, #58A601, #275C00);
+display: block;
+padding: 0.5em 0.75em;
+border-radius: 40px;
+position: absolute;
+right: 17%;
+bottom: 5%;
+font-family: 'Dosis', sans-serif;
+font-size: 40px;
+}
      .btn:hover{
        background-color: #58A601;
      }
@@ -140,14 +140,6 @@ nav a:hover{
   text-decoration: none;
   font-size: 2em;
 
-}
-
-footer{
-  clear:both;
-  background-image: url("../images/beetle.svg");
-  background-size: 30px auto;
-  background-repeat: no-repeat;
-  background: rgba(81, 34, 0, 0.5);
 }
 
 h2{
@@ -196,9 +188,9 @@ font-size: 2em;
 }
 
 footer{
-  background-image: url("../images/logo.svg");
+  clear:both;
+  background-image: url("../images/beetle.svg");
   background-size: 30px auto;
   background-repeat: no-repeat;
-  background-position: center 10px;
-  background-color: rgba(81, 34, 0, 0.5);
+  background: rgba(81, 34, 0, 0.5);
 }
