@@ -33,11 +33,80 @@ html {
 }
 
 h1{
-  font-weight: bold;
-  font-size: 4em;
-}
+      text-align:center;
+      position: relative;
+      font-family: 'Dosis', sans-serif;
+      font-size: 5em;
+      }
 
-
+.btn{
+      position: absolute;
+      text-decoration: none;
+      color:white;
+      background-color: #58A601;
+      background-image: linear-gradient(to bottom, #58A601, #275C00);
+      display:inline-block;
+      padding: 0.5em 0.75em;
+      border-radius: 10px;
+      left:20%;
+      bottom: 5%;
+      font-family: 'Dosis', sans-serif;
+      font-size:12px;
+      }
+      .btn2{
+           text-decoration: none;
+           color:white;
+           background-color: #58A601;
+           background-image: linear-gradient(to bottom, #58A601, #275C00);
+           display:inline-block;
+           padding: 0.5em 0.75em;
+           border-radius: 10px;
+           position: absolute;
+           right:20%;
+           bottom:5%;
+           font-family: 'Dosis', sans-serif;
+           font-size: 12px;
+         }
+         .btn3{
+           text-decoration: none;
+           color:white;
+           background-color: #58A601;
+           background-image: linear-gradient(to bottom, #58A601, #275C00);
+           display:block;
+           padding: 0.5em 0.75em;
+           border-radius: 10px;
+           position: absolute;
+           left:20%;
+           bottom: 5%;
+           font-family: 'Dosis', sans-serif;
+           font-size: 12px;
+         }
+     .btn4{
+           text-decoration: none;
+           color:white;
+           background-color: #58A601;
+           background-image: linear-gradient(to bottom, #58A601, #275C00);
+           display:block;
+           padding: 0.5em 0.75em;
+           border-radius: 10px;
+           position: absolute;
+           right:17%;
+           bottom:5%;
+           font-family: 'Dosis', sans-serif;
+           font-size: 12px;
+     }
+     .btn:hover{
+       background-color: #58A601;
+     }
+     .btn2:hover{
+       background-color: #58A601;
+     }
+     .btn3:hover{
+       background-color: #58A601;
+     }
+     .btn4:hover{
+       background-color: #58A601;
+     }
 nav li{
   list-style-type: none;
   display: inline-block;
@@ -75,7 +144,7 @@ nav a:hover{
 
 footer{
   clear:both;
-  background-image: url("../images/logo.svg");
+  background-image: url("../images/beetle.svg");
   background-size: 30px auto;
   background-repeat: no-repeat;
   background: rgba(81, 34, 0, 0.5);
