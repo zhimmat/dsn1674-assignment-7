@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead{
+  background-image: url("../images/white_mini_waves.png");
+  background-size: 200px auto;
+  padding-top: 1em;
+  background-repeat:repeat;
+  background-position:left top;
+  text-align:center;
+  padding-bottom: 0em;
+}
+
+.beetle-1{
+  float: left;
+  width: 15%;
+  margin: 0.5em;
+  padding-top:2em;
+}
+
+.beetle-2{
+  float: right;
+  width: 15%;
+  margin: 0.5em;
+  padding-top:2em;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 4em;
+}
+
+
+nav li{
+  list-style-type: none;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding: 1em 1em;
+  width: 145px;
+}
+
+ol li{
+  font-size: 1em;
+  text-decoration: none;
+}
+
+nav ol{
+  padding: 0;
+  margin: 0;
+  background-color: #512200;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+nav a:hover{
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+
+}
+
+footer{
+  clear:both;
+  background-image: url("../images/logo.svg");
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background: rgba(81, 34, 0, 0.5);
+}
+
+h2{
+padding-top: 7em;
+padding-bottom: 1em;
+color: #fff;
+width: 100%;
+text-align: center;
+margin: 0;
+font-weight: bolder;
+font-size: 2em;
+}
+
+.left{
+  float: left;
+  width: 50%;
+}
+
+.right{
+  float: right;
+  width: 50%;
+}
+
+.left2{
+  clear:both;
+  float: left;
+  width: 50%;
+}
+
+.right2{
+  float: right;
+  width: 50%;
+}
+
+.banner{
+  background-image: url("../images/rocks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0;
+}
+
+.footer{
+  opacity: 0.5;
+  padding: 2em;
+}
+
+footer{
+  background-image: url("../images/logo.svg");
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-color: rgba(81, 34, 0, 0.5);
+}
