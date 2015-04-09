@@ -10,10 +10,10 @@ html {
 
 .masthead{
   background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/white_mini_waves.png");
-  background-size: 50px auto, 50px auto, 200px auto;
-  padding-top: 3em;
+  background-size: 75px auto, 75px auto, 200px auto;
+  padding-top: 1em;
   background-repeat:no-repeat, no-repeat, repeat;
-  background-position: right 50px, left 50px, left top;
+  background-position: right 20px, left 20px, left top;
   display: block;
   padding-bottom: 3.3em;
 }
@@ -34,7 +34,7 @@ html {
 
 h1{
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   color: #512200;
   margin: 0;
@@ -139,7 +139,7 @@ font-weight: bolder;
 
 footer{
   background-image: url("../images/beetle.svg");
-  background-size: 30px auto;
+  background-size: 50px auto;
   background-repeat: no-repeat;
   background-position: center 10px;
   background-color: rgba(81, 34, 0, 0.5);
