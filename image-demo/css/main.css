@@ -9,7 +9,7 @@ html {
 }
 
 .masthead{
-  background-image: url("../images/white_mini_waves.png");
+  background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/white_mini_waves.png");
   background-size: 50px auto, 50px auto, 200px auto;
   padding-top: 3em;
   background-repeat:no-repeat, no-repeat, repeat;
